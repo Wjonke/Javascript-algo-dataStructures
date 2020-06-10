@@ -5,6 +5,7 @@
 - Math operations are much more constant in a function || time is always variable
 - regardless of the size of n, the number operations do not change in a function unless they are multiplied by the size of n such as a loop
 - if operations are multiplied by N such as in a loop we have to factor in that as N gets bigger, the number of operations increase by a factor of N!
+- when calculating time complexity, we only care about the worst time complexity, so if a function hasa BigO of O((n^2) + (n^3)) its actually just O(n^3)
 
 ## for example -> log(n)
 
