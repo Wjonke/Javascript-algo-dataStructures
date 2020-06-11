@@ -60,3 +60,54 @@ function printAllPairs(n) {
 - A NESTED LOOP, changes everything and
 - It compounds operations by another factor of N and makes the function a BigO of O(n^2)
 - it has a O(n) nested in an O(n) == O(n^2)
+
+## Another other Example -> O(n^3)
+
+<!-- ```
+function printAllPairs(n) {
+    for(let i = 0; i<n; i++){
+        //NESTED LOOP//
+        for(let j = 0; j<n; j++){
+        console.log(i, j)
+        }
+    }
+}
+```
+
+- A NESTED LOOP, changes everything and
+- It compounds operations by another factor of N and makes the function a BigO of O(n^2)
+- it has a O(n) nested in an O(n) == O(n^2) -->
+
+## Another other Example -> O(n log n)
+
+<!-- ```
+function printAllPairs(n) {
+    for(let i = 0; i<n; i++){
+        //NESTED LOOP//
+        for(let j = 0; j<n; j++){
+        console.log(i, j)
+        }
+    }
+}
+```
+
+- A NESTED LOOP, changes everything and
+- It compounds operations by another factor of N and makes the function a BigO of O(n^2)
+- it has a O(n) nested in an O(n) == O(n^2) -->
+
+## Another other Example -> O(log n)
+
+<!-- ```
+function printAllPairs(n) {
+    for(let i = 0; i<n; i++){
+        //NESTED LOOP//
+        for(let j = 0; j<n; j++){
+        console.log(i, j)
+        }
+    }
+}
+```
+
+- A NESTED LOOP, changes everything and
+- It compounds operations by another factor of N and makes the function a BigO of O(n^2)
+- it has a O(n) nested in an O(n) == O(n^2) -->
